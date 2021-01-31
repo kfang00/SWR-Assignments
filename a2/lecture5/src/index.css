@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.song-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.playlist-song {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  background-color: rgba(245, 251, 252, 0.603);
+  margin: 3px 10%;
+  padding: 10px;
+  border-left: 9px solid rgb(95, 192, 210);
+}
+
+
+.playlist-song label {
+  color: rgb(255, 55, 85);
+  font-weight: bold;
+}
+
+#playlist-form-title {
+  color: rgb(0, 143, 220);
+}
+
+#playlist-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1% 20%;
+}
+
+#playlist-form input {
+  padding: 8px;
+  margin: 7px 0px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+#playlist-form button {
+  padding: 9px;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  background-color:rgb(2, 167, 255);
+  color: white;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+#playlist-form button:hover {
+  background-color:black;
+}
