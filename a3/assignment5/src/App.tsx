@@ -19,7 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      <label htmlFor = "query">Enter your search query:</label>
+      <h1 className = "app-h1">SamBook</h1>
+      <label htmlFor = "query">Enter your search query: </label>
       <input
         type = "text"
         name = "query"
@@ -33,19 +34,19 @@ function App() {
         <input 
           type = "text"
           name = "addName"
-          defaultValue = ""
         />
         <button type = "submit">Add</button>
       </form>
-
-      <Filtered 
-        query = {searchQuery}
-        friends = {friends}
-      />
-      <Other 
-        query = {searchQuery}
-        friends = {friends}
-      />
+      <div className = "lists">
+        <Filtered 
+          query = {searchQuery}
+          friends = {friends}
+        />
+        <Other 
+          query = {searchQuery}
+          friends = {friends}
+        />
+      </div>
     </div>
   );
 }

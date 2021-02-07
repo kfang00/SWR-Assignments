@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 10px;
 }
 
 .App-logo {
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App input {
+  padding: 8px;
+  margin: 3px 7px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.app-h1 {
+  padding: 10px;
+  border-bottom: 3px solid pink;
+  margin: 10px 14% 20px;
+}
+.App button {
+  padding: 9px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color:rgb(255, 119, 194);
+  color: white;
+  font-size: 1em;
+}
+
+.App button:hover {
+  background-color:rgb(249, 80, 173);
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(255, 238, 252);
+  margin: 20px;
+  padding-bottom: 25px;
+}
+
+.list-positioning {
+  text-align: center;
+  background-color: white;
+  margin: 0px 20px;
+  border-radius: 15px;
+}
+
+.list-positioning ul {
+  display: inline-block; 
+  text-align: left;
+  padding: 0px;
+}
+
+.list-positioning ul li {
+  padding: 7px;
 }
